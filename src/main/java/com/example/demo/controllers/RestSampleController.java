@@ -22,7 +22,7 @@ public class RestSampleController {
     //     // http://localhost:8080/bye?param=○○○ ← byeの後に必ず ? と param(パラメータ)
     // }
 
-    // ↓ パラメータを指定しなくてもページが開くようしなる
+    // ↓ パラメータを指定しなくてもページが開くようになる
     @GetMapping(value="/bye")
     public String bye(@RequestParam(name = "name", required = false)String param) {
         String message = "Bye!" + param;
