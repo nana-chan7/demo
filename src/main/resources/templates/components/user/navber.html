@@ -1,0 +1,24 @@
+<!-- 2023-09-22 3.week1 -->
+
+<!-- BootStrap5: Navber -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" th:href="@{/}">My News</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" th:href="@{/article/}">主要</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" th:href="@{/article/}">スポーツ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" th:href="@{/article/}">エンタメ</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
