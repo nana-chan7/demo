@@ -12,10 +12,9 @@ public class ArticleController {
     @GetMapping(value="/article/{id}")
     public String detail(@PathVariable("id") long id) {
         System.out.println(id);
-        // templates/article/detail.html を表示
-        return "article/detail";
+        // templates/aritcle/detail.html を表示
+        return "article/detail"; 
     }
     
 }
-
 
