@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class HomeController {
-    
+
     // ※ staticフォルダ内の index.html より優先される   
     @GetMapping(value="/")
     // @ResponseBody // ← 追加することで正しく表示される
