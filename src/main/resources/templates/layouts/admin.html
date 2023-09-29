@@ -6,9 +6,12 @@
 <head th:replace="~{components/head}"></head>
 
 <body>
+
+    <head th:replace="~{components/admin/navber}"></head>
+
     <main class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 pt-3">
                 <!-- ここに各ページのコンテンツ -->
                 <div layout:fragment="contents"></div>
             </div>
